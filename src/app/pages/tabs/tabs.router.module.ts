@@ -9,7 +9,7 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
-        path: 'tab1',
+        path: 'albion',
         children: [
           {
             path: '',
@@ -18,7 +18,7 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'tab2',
+        path: 'hibernia',
         children: [
           {
             path: '',
@@ -27,7 +27,7 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'tab3',
+        path: 'midgard',
         children: [
           {
             path: '',
@@ -37,14 +37,14 @@ const routes: Routes = [
       },
       {
         path: '',
-        redirectTo: '/tabs/tab1',
+        redirectTo: '/tabs/albion',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/tabs/tab1',
+    redirectTo: '/tabs/albion',
     pathMatch: 'full'
   }
 ];

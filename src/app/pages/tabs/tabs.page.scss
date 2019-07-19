@@ -1,0 +1,23 @@
+ion-tab-button[tab="albion"].tab-selected {
+    --color-selected: var(--ion-color-albion);
+  
+    ion-label {
+      border-color: var(--ion-color-albion);
+    }
+ }
+ 
+ ion-tab-button[tab="hibernia"].tab-selected {
+    --color-selected: var(--ion-color-hibernia);
+  
+    ion-label {
+      border-color: var(--ion-color-hibernia);
+    }
+ }
+ 
+ ion-tab-button[tab="midgard"].tab-selected {
+    --color-selected: var(--ion-color-midgard);
+  
+    ion-label {
+      border-color: var(--ion-color-midgard);
+    }
+ }

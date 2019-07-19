@@ -1,0 +1,33 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>{{charClass.name | titlecase}}</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-item>
+        <ion-label>Race</ion-label>
+        <ion-select interface="action-sheet">
+            <ion-select-option>Avalonian</ion-select-option>
+            <ion-select-option>Briton</ion-select-option>
+            <ion-select-option>Highlander</ion-select-option>
+            <ion-select-option>Inconnu</ion-select-option>
+            <ion-select-option>Saracen</ion-select-option>
+        </ion-select>
+    </ion-item>
+    <ion-grid>
+        <ion-row>
+            <ion-col *ngFor="let stat of charData.stats" [hidden]="isUseless(stat.name)">
+                <ion-item>
+                    <ion-label position="stacked">{{stat.name}}</ion-label>
+                    <ion-input type="number" [(ngModel)]="stat.value" (blur)="log(stat)"></ion-input>
+                </ion-item>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <ion-button class="customized">TEST</ion-button>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

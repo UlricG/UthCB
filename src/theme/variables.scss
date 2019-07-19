@@ -3,6 +3,7 @@
 
 /** Ionic CSS Variables **/
 :root {
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -74,4 +75,29 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /** albion **/
+  --ion-color-albion: #f04141;
+  --ion-color-albion-rgb: 245, 61, 61;
+  --ion-color-albion-contrast: #ffffff;
+  --ion-color-albion-contrast-rgb: 255, 255, 255;
+  --ion-color-albion-shade: #d33939;
+  --ion-color-albion-tint: #f25454;
+
+  /** hibernia **/
+  --ion-color-hibernia: #05d400;
+  --ion-color-hibernia-rgb: 5,212,0;
+  --ion-color-hibernia-contrast: #ffffff;
+  --ion-color-hibernia-contrast-rgb: 255,255,255;
+  --ion-color-hibernia-shade: #04bb00;
+  --ion-color-hibernia-tint: #1ed81a;
+
+  /** midgard **/
+  --ion-color-midgard: #0054f0;
+  --ion-color-midgard-rgb: 0, 84, 240;
+  --ion-color-midgard-contrast: #ffffff;
+  --ion-color-midgard-contrast-rgb: 255, 255, 255;
+  --ion-color-midgard-shade: #004ad3;
+  --ion-color-midgard-tint: #1a65f2;
+  
 }

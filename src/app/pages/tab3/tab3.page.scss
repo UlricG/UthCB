@@ -1,0 +1,14 @@
+ion-header {
+  background: var(--ion-color-midgard-shade);
+  color: var(--ion-color-midgard-contrast);
+}
+
+ion-list-header {
+  text-align: center;
+  background: var(--ion-color-midgard);
+  color: var(--ion-color-midgard-contrast);
+  h2 {
+    font-size: medium;
+  }
+}
+
